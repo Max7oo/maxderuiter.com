@@ -1,7 +1,7 @@
 import '../styling/about.css'
 
 import arrow from '../media/arrow.svg';
-import profile from '../media/profile.jpg'
+import profile from '../media/max-uitleg.jpg'
 
 import figma from '../media/icons/figma.svg';
 import adobexd from '../media/icons/adobe-xd.svg';
