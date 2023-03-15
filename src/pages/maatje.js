@@ -4,11 +4,12 @@ import Nav from '../components/nav';
 import Footer from '../components/footer';
 
 import profile from '../media/max-maatje.jpg';
+import maatje from '../media/maatje-mockup.jpg';
 import arrow from '../media/arrow.svg';
 import greenarrow from '../media/arrow-green.svg';
-// import dialoog from '../media/screenshot-dialoog.jpg';
 
 function Maatje() {
+  window.scrollTo(0,0);
     return (
       <div>
         <div className='bg'></div>
@@ -27,7 +28,7 @@ function Maatje() {
             </div>
 
             <div className='work-intro-visual'>
-                <img src={profile} className='work-intro-visual-img' alt='profile' />
+                <img src={maatje} className='work-intro-visual-img' alt='mock-up prototype' />
             </div>
 
             <div className='work-intro-tags-mobile'>
@@ -56,8 +57,8 @@ function Maatje() {
               <h5>Value proposition</h5>
               <p>Verifiably increasing the succes of adoption.</p>
             </div>
-            <div className='work-project-img'>
-              <img src={profile} className='work-intro-visual-img' alt='profile' />
+            <div>
+              <img src={profile} className='work-project-img' alt='max holding maatje' />
             </div>
             <div className='work-project-context'>
             <h5>Context</h5>
@@ -82,16 +83,16 @@ function Maatje() {
             </div>
             <div className='work-product-presentation'>
               <h3>(1) A presentation to convince healthcare workers of the value of Maatje in order to motivate them to work with the technology.</h3>
+              <a className='button desktop-hidden' href='https://onedrive.live.com/embed?resid=6112B6F77F657CCE%21432830&amp;authkey=!AOvkgl8b3fsGLEA&amp;em=2&amp;wdAr=1.7777777777777777' target={'_blank'} rel="noreferrer">View PowerPoint</a>
               <p>This presentation was needed because the healthcare workers did not understand the technology and were sometimes even afraid to work with it because they think it is too complicated. Both reasons make it so that the healthcare workers do not believe in the value of Maatje.</p>
               <p>The presentation takes away these doubts by explaining the technology in an understandable way, placing old situations in a new context using Maatje and giving examples to the healthcare workers to experiment with.</p>
-              <iframe className='mobile-hidden' title="Maatje powerpoint" src="https://onedrive.live.com/embed?resid=6112B6F77F657CCE%21432722&amp;authkey=!AF1huQVCWEV7wZE&amp;em=2&amp;wdAr=1.7777777777777777"></iframe>
-              <a className='button desktop-hidden' href='https://onedrive.live.com/embed?resid=6112B6F77F657CCE%21432722&amp;authkey=!AF1huQVCWEV7wZE&amp;em=2&amp;wdAr=1.7777777777777777' target={'_blank'} rel="noreferrer">View PowerPoint</a>
+              <iframe className='mobile-hidden' title="Maatje powerpoint" src="https://onedrive.live.com/embed?resid=6112B6F77F657CCE%21432830&amp;authkey=!AOvkgl8b3fsGLEA&amp;em=2&amp;wdAr=1.7777777777777777"></iframe>
             </div>
             <div className='work-product-tutorial'>
               <h3>(2) An improved UI with interactive tutorial for the system used to control Maatje.</h3>
+              <a className='button' href='https://labu2l.axshare.com/' target={'_blank'} rel="noreferrer">View prototype</a>
               <p>The improved UI was needed because interviews and surveying showed that the old UI was too complicated for healthcare workers and did not offer enough support to actually use Maatje to create impact. These problems have been tackled by creating an interactive tutorial which is understandable, efficient and motivating.</p>
               <p>Very important in this tutorial are the examples given to motivate the healthcare worker to experiment with Maatje which causes major improvements in the adoption. While doing this the tutorial also explains the limitations of Maatje to make sure the healthcare workers have the right idea of what Maatje can and cannot do.</p>
-              <a className='button' href='https://labu2l.axshare.com/' target={'_blank'} rel="noreferrer">View prototype</a>
               {/* <img src={dialoog} className='work-product-img' alt='interactieve tutorial' /> */}
             </div>
             <div className='work-product-questionlist'>

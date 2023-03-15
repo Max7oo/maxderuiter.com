@@ -7,10 +7,6 @@
     margin-right: calc(var(--margin-small)/2);
 }
 
-.about-me p:nth-last-child(2), .about-me p:last-child {
-    padding-top: var(--margin-mini);
-}
-
 .about-profile {
     width: 33%;
     margin: 0 calc(var(--margin-small)/2) 0 calc(var(--margin-small)/2);

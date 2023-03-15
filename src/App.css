@@ -152,6 +152,7 @@
     color: var(--t);
 
     margin-top: var(--margin-mini);
+    margin-bottom: var(--margin-mini);
     padding: var(--margin-mini) var(--margin-small) var(--margin-mini) var(--margin-small);
   }
 
@@ -222,8 +223,13 @@
     color: var(--t);
     margin: 0;
     text-align: justify;
+    padding-top: var(--margin-mini);
   }
   
+  p:first-of-type {
+    padding-top: 0;
+  }
+
   a {
     font-family: -apple-system, 'Montserrat-Medium', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;

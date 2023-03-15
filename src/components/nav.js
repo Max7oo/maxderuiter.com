@@ -1,36 +1,36 @@
-// import logo from '../media/logo.jpg';
+// import { Link } from "react-router-dom";
+
 import '../styling/nav.css';
-import '../functions/functions.js';
 
 function Nav() {
   return (
     <section id='top'>
       <div className='nav-bar'>
-        <a href="/" rel='noreferrer'>
+        <a href="/">
           MAX DE RUITER
         </a>
 
-        <button className='nav-toggle-mobile' aria-controls='nav' aria-expanded="false">MENU</button>
+        {/* <button className='nav-toggle-mobile' aria-controls='nav' aria-expanded="false">MENU</button>
       
         <nav>
           <ul id='nav' data-visible='false' className='nav'>
             <li className='active'>
-              <a href="#work">
+              <a href="./#work">
                 WORK
               </a>
             </li>
             <li className='active'>
-              <a href="#about">
+              <a href="/#about">
                 ABOUT ME
               </a>
             </li>
             <li className='active'>
-              <a href="index.html">
+              <Link to="/blog">
                 BLOG
-              </a>
+              </Link>
             </li>
           </ul>
-        </nav>
+        </nav> */}
       </div>
     </section>
   );

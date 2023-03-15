@@ -1,5 +1,5 @@
 header {
-    margin-top: var(--margin-big);
+    margin-top: calc(var(--margin-big)/2);
     align-items: center;
     justify-content: space-between;
     display: flex;
