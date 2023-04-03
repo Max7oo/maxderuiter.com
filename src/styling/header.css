@@ -5,6 +5,10 @@ header {
     display: flex;
 }
 
+.header-intro {
+    margin-right: var(--margin-small);
+}
+
 .header-profile-image {
     min-width: 500px;
     max-width: 100%;
@@ -13,6 +17,17 @@ header {
 @media (max-width: 1600px) {
     .header-hidden {
         display: none;
+    }
+
+    .header-profile-image {
+        min-width: 450px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1370px) {
+    .header-profile-image {
+        min-width: 400px;
     }
 }
 

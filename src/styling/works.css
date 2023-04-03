@@ -1,12 +1,18 @@
 .work {
-    align-items: center;
-    justify-content: space-between;
+    /* align-items: center;
+    justify-content: space-between; */
     display: flex;
 }
 
 .work-thumbnail {
     aspect-ratio: 1;
     margin-right: var(--margin-small);
+}
+
+.work-thumbnail-image {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: var(--margin-small);
 }
 
 .work-items {

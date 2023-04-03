@@ -6,7 +6,7 @@ function Header() {
         <header id='header'>
             <div className='header-intro'>
                 <h2 className='header-hidden'>I am Max de Ruiter</h2> 
-                <h1>HUMAN-CENTRED DESIGNER</h1>
+                <h1>USER-CENTERED DESIGNER</h1>
                 <h3>Available for work</h3>
             </div>
             <div className='header-profile'>

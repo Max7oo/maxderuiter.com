@@ -40,6 +40,7 @@ function About() {
                             <span>Front-end</span>
                             <span>Behaviour science</span>
                             <span>Communication</span>
+                            <span>Leadership</span>
                             <span>Ethics</span>
                             <span>Business</span>
                         </div>

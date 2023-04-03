@@ -1,7 +1,7 @@
 import '../styling/contact.css'
 
 import arrow from '../media/arrow.svg';
-import cv from '../media/CV-MaxdeRuiter.pdf';
+import cv from '../media/CV-eng-MaxdeRuiter.pdf';
 
 function Contact() {
     return (

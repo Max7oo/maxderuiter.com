@@ -12,7 +12,7 @@ function Footer() {
                 </a>
             </div>
             <div className='footer-items-website'>
-                <p>NEED A WEBSITE? CONTACT ME OR GO TO <a href='www.drwd.nl' target={'_blank'}>DRWD.NL</a></p>
+                <p>NEED A WEBSITE? CONTACT ME OR GO TO <a href='https://www.drwd.nl/' target={'_blank'} rel="noreferrer">DRWD.NL</a></p>
             </div>
             <div className='footer-items-copy'>
                 <p>©2023 BY MAX DE RUITER</p>
