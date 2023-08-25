@@ -1,24 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-import './functions/functions.js';
+import "./functions/functions.js";
 
-import App from './App.js';
-import Maatje from './pages/maatje.js';
-import Delivar from './pages/delivar.js';
-import Inflite from './pages/inflite.js';
-import Drwd from './pages/drwd.js';
-import Blog from './pages/blog.js'
+import App from "./App.js";
+import Travel from "./pages/travel-log.js";
+import Maatje from "./pages/maatje.js";
+import Delivar from "./pages/delivar.js";
+import Inflite from "./pages/inflite.js";
+import Drwd from "./pages/drwd.js";
+import Blog from "./pages/blog.js";
 
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+  },
+  {
+    path: "travel-log",
+    element: <Travel />,
   },
   {
     path: "maatje",
@@ -39,10 +41,8 @@ const router = createBrowserRouter([
   {
     path: "blog",
     element: <Blog />,
-  }
+  },
 ]);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-        <RouterProvider router={router} />
-);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<RouterProvider router={router} />);

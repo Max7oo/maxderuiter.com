@@ -19,7 +19,7 @@
     width: 100%;
 }
 
-.work-item-1, .work-item-2, .work-item-3, .work-item-4 {
+.work-item-1, .work-item-2, .work-item-3, .work-item-4, .work-item-5 {
     align-items: center;
     justify-content: space-between;
     display: flex;
@@ -53,6 +53,12 @@
 }
 
 .work-item-4:hover h2 {
+    color: var(--cta);
+
+    transition: 350ms ease-out;
+}
+
+.work-item-5:hover h2 {
     color: var(--cta);
 
     transition: 350ms ease-out;

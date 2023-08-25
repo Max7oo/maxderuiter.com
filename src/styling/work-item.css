@@ -70,7 +70,8 @@
     "product1 product1 . ."
     "product1 product1 product2 product2"
     "product3 product3 product2 product2"
-    "product3 product3 . .";
+    "product3 product3 product4 product4"
+    ". . product4 product4";
 }
 
 .work-product-intro {
@@ -87,6 +88,10 @@
 
 .work-product-questionlist {
     grid-area: product3;
+}
+
+.work-product-extra {
+    grid-area: product4;
 }
 
 .work-product-questionlist p {
@@ -234,7 +239,8 @@
         "header header header header"
         "product1 product1 product1 product1"
         "product2 product2 product2 product2"
-        "product3 product3 product3 product3";
+        "product3 product3 product3 product3"
+        "product4 product4 product4 product4";
     }
 
     .work-impact {
